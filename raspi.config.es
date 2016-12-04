@@ -16,6 +16,9 @@ sudo dpkg-reconfigure keyboard-configuration
 # Fecha y Hora
 sudo dpkg-reconfigure tzdata
 
+# Ajustar Fecha y Hora [MES][DIA][HORA][MINUTOS]
+sudo date 12041548
+
 # Si se tiene instalado xrdp para acceso remoto
 # y el teclado no esta configurado al Español
 # cuando se crea una sesion desde un cliente
